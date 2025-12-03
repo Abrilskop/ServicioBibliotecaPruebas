@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 from conexion.Configuracion import Configuracion
 from conexion.BaseConexion import BaseConexion
 from conexion.Conexion import Conexion
-
+# todo: revisar pruebas integracion
 
 class PruebasConexion(unittest.TestCase):
 
