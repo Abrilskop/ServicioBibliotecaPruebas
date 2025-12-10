@@ -1,17 +1,18 @@
-# 📚 Servicio de Biblioteca - TDD (Laboratorio 08)
+# Servicio de Biblioteca - TDD (Laboratorio 08)
+Documentacion detallada del TDD: https://docs.google.com/document/d/1S2C2cTwscgYJUigDl-OjUh4lpIymX13Gn0dSMk69tsA/edit?usp=sharing
 
 Este proyecto implementa la capa de acceso a datos (DAO) para un sistema de biblioteca utilizando la metodología **TDD (Test Driven Development)** y el patrón de diseño **Singleton**.
 
 El objetivo principal es demostrar la aplicación del ciclo **Rojo-Verde-Refactor**, utilizando **Mocks** para aislar las pruebas unitarias de la base de datos real.
 
-## 🚀 Características del Proyecto
+## Características del Proyecto
 
 *   **Metodología TDD:** Todo el código funcional fue escrito *después* de crear una prueba fallida (Fase Roja).
 *   **Unit Testing:** Pruebas unitarias con el framework nativo `unittest` de Python.
 *   **Mocking:** Uso de `unittest.mock.MagicMock` para simular conexiones a MySQL y cursores, permitiendo ejecutar el proyecto sin necesidad de un servidor de base de datos activo.
 *   **Arquitectura Limpia:** Separación de responsabilidades en capas (`dao`, `entidades`, `conexion`).
 
-## 🛠️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 ServicioBiblioteca/
